@@ -5,7 +5,6 @@ import { GeistMono } from "geist/font/mono";
 import { Navbar } from "./components/nav";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import Footer from "./components/GHFooter";
 import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
@@ -17,9 +16,9 @@ export const metadata: Metadata = {
   description: "portfolio web site",
   openGraph: {
     title: "Kevin Roy | Personal Space",
-    description: "This is my portfolio.",
+    description: "welcome to my safe space on the internet.",
     url: baseUrl,
-    siteName: "My Portfolio",
+    siteName: "@kevnroy",
     locale: "en_US",
     type: "website",
   },
