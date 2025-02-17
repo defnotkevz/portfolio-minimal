@@ -1,4 +1,6 @@
 import { BlogPosts } from "app/components/posts";
+import Footer from "./components/GHFooter";
+import GHFooter from "./components/GHFooter";
 
 export default function Page() {
   return (
@@ -16,9 +18,7 @@ export default function Page() {
         mode, which eases long coding sessions by reducing eye strain.`} */}
         {`I love beautiful software.`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+      <GHFooter />
     </section>
   );
 }
