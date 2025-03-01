@@ -1,6 +1,5 @@
 import Footer from "app/components/Footer";
 import { BlogPosts } from "app/components/posts";
-import RSSFooter from "app/components/RSSFooter";
 
 export const metadata = {
   title: "Blog",
