@@ -1,4 +1,4 @@
-import Footer from "app/components/GHFooter";
+import Footer from "app/components/Footer";
 import { BlogPosts } from "app/components/posts";
 import RSSFooter from "app/components/RSSFooter";
 
@@ -14,7 +14,7 @@ export default function Page() {
         Digital Bleeding
       </h1>
       <BlogPosts />
-      <RSSFooter />
+      <Footer items={[{ name: "rss", link: "/rss" }]} />
     </section>
   );
 }
