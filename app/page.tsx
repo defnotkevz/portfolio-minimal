@@ -5,7 +5,7 @@ export default function Page() {
     <section>
       <div>
         <h1 className="text-2xl font-semibold tracking-tighter">Kevin Roy</h1>
-        <h3 className="mb-8">Software Engineer</h3>
+        <h3 className="mb-8">Product Engineer @m0.ventures</h3>
       </div>
 
       <p className="mb-4">{`I love beautiful software.`}</p>
